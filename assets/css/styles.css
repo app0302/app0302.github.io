@@ -926,6 +926,15 @@ button{
     margin-bottom: 3rem;
   }
 
+  .arrivals__container{
+  
+    /*text-align: justify;*/
+    /*text-justify: distribute;*/
+    text-align-last: justify;
+    justify-content: space-between;
+    
+  }
+
   .home__content{
     padding-top: 9rem;
     gap: 3rem;
