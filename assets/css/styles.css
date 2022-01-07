@@ -536,7 +536,7 @@ button{
 }
 
 .arrivals__container{
-  text-align: justify;
+  /*text-align: justify;*/
   text-justify: distribute;
   text-align-last: justify;
 }
@@ -795,11 +795,7 @@ button{
     justify-content: center;
   }
 
-  .arrivals__container{
-    text-align: justify;
-    text-justify: distribute;
-    text-align-last: justify;
-  }
+
 }
 
 /* For medium devices */
@@ -818,11 +814,7 @@ button{
     padding: 0 3rem;
   }
 
-  .arrivals__container{
-    text-align: justify;
-    text-justify: distribute;
-    text-align-last: justify;
-  }
+
 }
 
 @media screen and (min-width: 767px){
@@ -916,11 +908,7 @@ button{
     bottom: 0;
     left: 15%;
   }
-  .arrivals__container{
-    text-align: justify;
-    text-justify: distribute;
-    text-align-last: justify;
-  }
+
 }
 
 /* For large devices */
@@ -1021,11 +1009,7 @@ button{
   .footer__copy{
     margin-top: 6rem;
   }
-  .arrivals__container{
-    text-align: justify;
-    text-justify: distribute;
-    text-align-last: justify;
-  }
+
 }
 
 @media screen and (min-width: 1200px){
@@ -1043,9 +1027,5 @@ button{
     top: 30%;
     left: -3%;
   }
-  .arrivals__container{
-    text-align: justify;
-    text-justify: distribute;
-    text-align-last: justify;
-  }
+
 }
