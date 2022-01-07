@@ -536,9 +536,11 @@ button{
 }
 
 .arrivals__container{
+  box-sizing: border-box;
   /*text-align: justify;*/
   /*text-justify: distribute;*/
   text-align-last: justify;
+  
 }
 
 .new__img{
