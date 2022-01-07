@@ -540,7 +540,7 @@ button{
   /*text-align: justify;*/
   /*text-justify: distribute;*/
   text-align-last: justify;
-  letter-spacing: 20px;
+  justify-content: space-between;
   
 }
 
