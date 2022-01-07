@@ -1020,23 +1020,6 @@ button{
 
 @media screen and (min-width: 1200px){
   .home__img{
-    height: 2420px;
-  }
-  .swiper-pagination{
-    margin-top: var(--mb-2-5);
-  }
-  .footer__img-one{
-    width: 2120px;
-  }
-  .footer__img-two{
-    width: 2180px;
-    top: 70%;
-    left: -3%;
-  }
-}
-/*
-@media screen and (min-width: 1200px){
-  .home__img{
     height: 420px;
   }
   .swiper-pagination{
@@ -1051,4 +1034,3 @@ button{
     left: -3%;
   }
 }
-*/
