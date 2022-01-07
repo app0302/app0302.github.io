@@ -1039,5 +1039,12 @@ button{
     top: 30%;
     left: -3%;
   }
-
+  .arrivals__container{
+  
+    /*text-align: justify;*/
+    /*text-justify: distribute;*/
+    text-align-last: justify;
+    justify-content: space-between;
+    
+  }
 }
