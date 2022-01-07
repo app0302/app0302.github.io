@@ -914,6 +914,9 @@ button{
 
 }
 
+
+
+
 /* For large devices */
 @media screen and (min-width: 992px){
   .container{
@@ -926,13 +929,104 @@ button{
     margin-bottom: 3rem;
   }
 
-  .arrivals__container{
-  
-    /*text-align: justify;*/
-    /*text-justify: distribute;*/
-    text-align-last: justify;
-    justify-content: space-between;
-    
+  .home__content{
+    padding-top: 9rem;
+    gap: 3rem;
+  }
+  .home__group{
+    padding-top: 0;
+  }
+  .home__img{
+    height: 1400px;
+    transform: translateY(-3rem);
+  }
+  .home__indicator{
+    top: initial;
+    right: initial;
+    bottom: 15%;
+    left: 45%;
+  }
+  .home__indicator::after{
+    top: 0;
+    height: 75px;
+  }
+  .home__details-img{
+    bottom: 0;
+    right: 58%;
+  }
+  .home__title{
+    margin-bottom: var(--mb-1-5);
+  }
+  .home__description{
+    margin-bottom: var(--mb-2-5);
+    padding-right: 2rem;
+  }
+
+  .category__container{
+    column-gap: 8rem;
+  }
+  .category__img{
+    width: 1200px;
+  }
+
+  .about__container{
+    column-gap: 7rem;
+  }
+  .about__img{
+    width: 1350px;
+  }
+  .about__description{
+    padding-right: 2rem;
+  }
+
+  .phase__container{
+    gap: 3.5rem;
+  }
+  .phase__content{
+    border-radius: 1.5rem;
+  }
+  .phase__img{
+    width: 1110px;
+  }
+  .phase__title{
+    font-size: var(--h3-font-size);
+  }
+
+  .tokenomics__container{
+    column-gap: 7rem;
+  }
+
+  .new__content{
+    width: 1310px;
+    border-radius: 1rem;
+    padding: 2rem 0;
+  }
+  .new__img{
+    width: 1150px;
+  }
+  .new__img,
+  .new__subtitle{
+    margin-bottom: var(--mb-1);
+  }
+  .new__title{
+    font-size: var(--h3-font-size);
+  }
+
+  .footer__copy{
+    margin-top: 6rem;
+  }
+
+}
+/*
+@media screen and (min-width: 992px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: 3rem;
   }
 
   .home__content{
@@ -1023,7 +1117,7 @@ button{
   }
 
 }
-
+*/
 @media screen and (min-width: 1200px){
   .home__img{
     height: 420px;
@@ -1038,13 +1132,5 @@ button{
     width: 180px;
     top: 30%;
     left: -3%;
-  }
-  .arrivals__container{
-  
-    /*text-align: justify;*/
-    /*text-justify: distribute;*/
-    text-align-last: justify;
-    justify-content: space-between;
-    
   }
 }
