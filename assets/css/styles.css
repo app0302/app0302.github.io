@@ -449,8 +449,8 @@ button{
 
 .toggleMenu{
   position: relative;
-  width:  200px;
-  height: 200px;
+  width:  400px;
+  height: 400px;
 
   display: flex;
   justify-content: center;
@@ -461,10 +461,10 @@ button{
   position: absolute;
   left: 0;
   list-style: none;
-  transform-origin: 100px;
+  transform-origin: 200px;
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
-  transform: rotate(0deg) translateX(80px);
+  transform: rotate(0deg) translateX(160px);
 }
 
 .toggleMenu.active li{
@@ -475,8 +475,8 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background: #fff;
   border-radius: 50%;
   transform: rotate(calc(360deg / -10 * var(--i)));
@@ -491,8 +491,8 @@ button{
 
 .toggle{
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   background: #fff;
   display: flex;
   justify-content: center;
