@@ -445,14 +445,12 @@ button{
 .about__img{
   width: 200px;
   justify-self: center;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .toggleMenu{
   position: relative;
-  width:  300px;
   height: 300px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,12 +458,12 @@ button{
 
 .toggleMenu li{
   position: absolute;
-  left: 0;
+  left:.10rem;
+  transform-origin:13.4rem;
   list-style: none;
-  transform-origin: 150px;
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
-  transform: rotate(0deg) translateX(120px);
+  transform: rotate(0deg) translateX(12rem);
 }
 
 .toggleMenu.active li{
@@ -478,8 +476,8 @@ button{
   align-items: center;
   width: 50px;
   height: 50px;
-  background: #fff;
-  border-radius: 50%;
+  background: #000;
+  border-radius: 10%;
   transform: rotate(calc(360deg / -10 * var(--i)));
   box-shadow: 0 3px 4px rgba(0,0,0,0.15);
   color: #111;
@@ -864,14 +862,18 @@ button{
     grid-template-columns: .8fr;
     justify-content: center;
   }
-
+  
+  .toggleMenu li{
+    left:.4rem;
+    transform-origin:6rem;
+  }
 }
 
 /* For medium devices */
 @media screen and (min-width: 576px){
   .about__container{
     grid-template-columns: .8fr;
-    justify-content: center;
+
   }
 
   .newsletter__container{
@@ -882,7 +884,6 @@ button{
   .newsletter__description{
     padding: 0 3rem;
   }
-
 
 }
 
@@ -938,7 +939,6 @@ button{
   }
   .about__img{
     width: 250px;
-    border-radius: 50%;
 
   }
 /*=================================================================================================================================*/
@@ -1042,7 +1042,6 @@ button{
   }
   .about__img{
     width: 350px;
-    border-radius: 50%;
 
   }
   .about__description{
