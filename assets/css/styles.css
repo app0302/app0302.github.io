@@ -576,12 +576,13 @@ button{
 }
 
 .tokenomics__data{
-  text-align: center;
+  text-align: left;
 }
 
 .tokenomics__title{
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 .tokenomics__chart{
